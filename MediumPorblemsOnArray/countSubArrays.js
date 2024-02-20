@@ -20,7 +20,7 @@ function countSubArrays(arr) {
 
         // Update the hashmap with the cumulative sum encountered so far
         frequencyMap.set(sum, (frequencyMap.get(sum) || 0) + 1);
-    }
+    };
 
     return count;
 };
