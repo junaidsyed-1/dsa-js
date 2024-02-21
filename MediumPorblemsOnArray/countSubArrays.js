@@ -1,5 +1,5 @@
 // Count subarrays with equal number of 1’s and 0’s
-// Given an array arr[] of size n containing 0 and 1 only. The problem is to count the subarrays having an equal number of 0’s and 1’s.
+// Given an array arr[] of size n containing 0 and 1 only. The problem is to count the subarrays having an equal number of 0’s and 1’s
 
 function countSubArrays(arr) {
     let count = 0; // Initialize count of subarrays
