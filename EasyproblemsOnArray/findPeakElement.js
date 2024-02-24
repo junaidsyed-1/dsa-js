@@ -2,15 +2,16 @@
 
 // Given an array arr of n elements that is first strictly increasing and then maybe strictly decreasing, find the maximum element in the array.
 
-const arr = [5, 10, 20, 15];
+const arr = [5, 10, 2, 15,];
+// Explanation: The element 20 has neighbors 10 and 15, both of them are less than 20.
 
 function peakElement(arr) {
 
     // let peakIndex = 0;
     // const n = arr.length;
 
-    // if (arr[n - 1] >= arr[n - 2]) {
-    //     return arr[n - 1];
+    // if (arr[n - 1] >= ar{
+    //     return arr[nr[n - 2])  - 1];
     // }
 
     // for (let i = 1; i < n - 1; i++) {
