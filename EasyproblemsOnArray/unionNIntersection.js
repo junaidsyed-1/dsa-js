@@ -8,7 +8,6 @@ function unionNIntersection(arr1, arr2) {
 
     const result = [...new Set([...set1, ...set2])];
     return result;
-
 }
 
 const arr1 = [1, 3, 4, 5, 7];
